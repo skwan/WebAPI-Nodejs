@@ -52,7 +52,7 @@
 
 // MongoDB setup
 // Setup some configuration
-var serverPort = process.env.PORT || 443;
+var serverPort = process.env.PORT || 8888;
 var serverURI = (process.env.PORT) ? config.creds.mongoose_auth_mongohq : config.creds.mongoose_auth_local;
 
 // Connect to MongoDB
