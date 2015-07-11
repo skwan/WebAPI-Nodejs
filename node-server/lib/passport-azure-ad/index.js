@@ -19,7 +19,4 @@
 
 exports.SamlStrategy = require('./samlstrategy');
 exports.WsfedStrategy = require('./wsfedstrategy');
-
-/*
 exports.OIDCStrategy = require('./oidcstrategy');
-*/
