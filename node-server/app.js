@@ -53,7 +53,9 @@
 // MongoDB setup
 // Setup some configuration
 var serverPort = process.env.PORT || 8888;
-var serverURI = (process.env.PORT) ? config.creds.mongoose_auth_mongohq : config.creds.mongoose_auth_local;
+// var serverURI = (process.env.PORT) ? config.creds.mongoose_auth_mongohq : config.creds.mongoose_auth_local;
+
+var serverURI = "mongodb://locahost:9999";
 
 // Connect to MongoDB
 global.db = mongoose.connect(serverURI);
